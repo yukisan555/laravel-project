@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\SearchController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -27,5 +28,10 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
+// 検索フォームを表示するルート
+Route::get('/search', [SearchController::class, 'index'])->name('search.index');
+
+// 検索結果を表示するルート
+Route::get('/search/results', [SearchController::class, 'search'])->name('search.results');
 
 require __DIR__.'/auth.php';
