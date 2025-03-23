@@ -48,10 +48,10 @@
                                     </svg>
                                 </div>
 
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">test2</h2>
+                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">漫画一覧</h2>
 
                                 <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Laravel has wonderful documentation test covering every aspect of the framework. Whether you are a newcomer or have prior experience with Laravel, we recommend reading our documentation from beginning to end.
+                                    ランダムで表示しているよ〜
                                 </p>
                             </div>
 
@@ -68,10 +68,10 @@
                                     </svg>
                                 </div>
 
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Laracasts</h2>
+                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">漫画検索</h2>
 
                                 <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
+                                    検索して本棚に入れる作業な！
                                 </p>
                             </div>
 

@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('publisher',100);
             $table->date('publicationdate');
             $table->text('content');
-            $table->string('image')->nullable()->after('imagename'); // 画像のファイル名（NULL許可）
+            $table->string('image')->nullable(); // 画像のファイル名（NULL許可）
             $table->timestamps();
         });
     }
