@@ -12,13 +12,6 @@ class booksSeeder extends Seeder
      */
     public function run(): void
     {
-        \App\Models\books::factory()->create([
-            'bookname' => 'Test book1',
-            'author' => '',
-            'publisher' => '',
-            'publicationdate' => '',
-            'content' => '',
-            'image' => '',
-        ]);
+        \App\Models\Books::factory()->times(50)->create();
     }
 }
